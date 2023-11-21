@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halloween Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- Підключаю шрифт INTER -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Контейнер який обмежує наш сайт по ширині і центрує його по середині 1100px -->
+    <div class="container">
+      <!-- Навігація 😊 -->
+      <div class="nav">
+        <div class="logo">
+          <a href="#">
+            <img
+              src="img/favicon.png"
+              alt="Logo site"
+              width="30px"
+              height="30px"
+            />
+            <h1 class="main_header">
+              <span>H</span>alloween <span>S</span>tore
+            </h1>
+          </a>
+        </div>
+        <div class="nav_list">
+          <!-- ul>(li>a)*4 -->
+          <ul>
+            <li><a class="nav_links" href="#">Головна</a></li>
+            <li><a class="nav_links" href="#">Доставка</a></li>
+            <li><a class="nav_links" href="#">Наші контакти</a></li>
+            <li><a class="nav_links" href="#">😍</a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <!-- Добавив на задній фон таку бульбашку blob -->
+      <div class="blob">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          id="visual"
+          viewBox="0 0 900 600"
+          width="1200"
+          height="900"
+          version="1.1"
+        >
+          <g transform="translate(532.5787842647694 270.70660323636446)">
+            <path
+              d="M231.5 -228.1C278.7 -184.3 280.8 -92.2 273.9 -7C266.9 78.3 250.8 156.5 203.7 220.7C156.5 284.8 78.3 334.9 -1.2 336.1C-80.6 337.3 -161.2 289.6 -248.7 225.4C-336.2 161.2 -430.6 80.6 -441 -10.4C-451.4 -101.4 -377.7 -202.7 -290.2 -246.5C-202.7 -290.2 -101.4 -276.4 -4.6 -271.8C92.2 -267.2 184.3 -271.8 231.5 -228.1"
+              fill="#ffe8cc"
+            />
+          </g>
+        </svg>
+      </div>
+      <!-- Головна секція з текстом і картинаками -->
+      <div class="main_section">
+        <div class="main_text">
+          <h2 class="text_orange">Магазин</h2>
+          <p class="text_dark">який лякає👻</p>
+          <button class="btn" type="button">Погнали</button>
+        </div>
+        <div class="main_img">
+          <img class="main_imge" src="svg/main.svg" alt="Main image" />
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </body>
+</html>

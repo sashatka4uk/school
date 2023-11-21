@@ -1,0 +1,111 @@
+/* Скаидую всі стандартні відступи  у всіх елементів */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  position: relative;
+}
+.container {
+  width: 1100px;
+  /* Ставить елемент по центру!🤗 */
+  margin: 0 auto;
+}
+/* Забираю в а підкреслення */
+a {
+  text-decoration: none;
+  display: inline;
+}
+/* Щоб не було на весь екран і стало біля іконки */
+h1 {
+  display: inline;
+  font-size: 28px;
+  color: #868e96;
+}
+/* Роблю виликі букви оранжевого кольору */
+span {
+  color: #ff922b;
+  font-size: 38px;
+}
+
+.blob {
+  position: absolute;
+  top: -73px;
+  right: 0;
+  z-index: -1;
+  /* filter: blur(20px); */
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.logo {
+  float: left;
+}
+
+.nav_list {
+  float: right;
+  margin-top: 20px;
+}
+.clear {
+  clear: both;
+}
+
+.nav_links {
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 20px;
+  color: #ff922b;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+/* При наведенні на лінк в меню */
+.nav_links:hover {
+  color: #fff;
+  background-color: #ff922b;
+}
+
+/* Головна секція */
+.main_section {
+  margin-top: 60px;
+}
+.main_text {
+  float: left;
+}
+.text_orange {
+  margin-top: 150px;
+  color: #ff922b;
+  font-weight: 800;
+  font-size: 48px;
+}
+.text_dark {
+  font-weight: 800;
+  font-size: 48px;
+  color: #868e96;
+}
+
+.main_img {
+  float: right;
+}
+.main_imge {
+  width: 500px;
+  height: 500px;
+}
+
+/* Кнопка */
+.btn {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  background-color: #ff922b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
